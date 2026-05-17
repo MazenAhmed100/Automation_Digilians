@@ -1,0 +1,18 @@
+<suite name="My test suite">
+    <test name="Login and Products set">
+
+        <groups >
+            <run>
+                <include name = "regression" ></include>
+            </run>
+        </groups>
+        <classes>
+        <class name="LoginTC"></class>
+            <class name="SwagaLabHomeTC" ></class>
+            <methods>
+                <exclude name="NegativeScenario"/>
+            </methods>
+
+    </classes>
+    </test>
+</suite>
